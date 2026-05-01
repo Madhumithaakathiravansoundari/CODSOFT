@@ -3,22 +3,19 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
 from sklearn.metrics import classification_report, accuracy_score
-train_df = pd.read_csv(
-    r"C:\Users\Madhu\Downloads\CODSOFT\Task1\Genre Classification Dataset\train_data.txt",
+train_df = pd.read_csv("dataset.csv",
     sep=" ::: ",
     engine="python",
     header=None,
     names=["id", "title", "genre", "plot"]
 )
-test_df = pd.read_csv(
-    r"C:\Users\Madhu\Downloads\CODSOFT\Task1\Genre Classification Dataset\test_data.txt",
+test_df = pd.read_csv("dataset.csv",
     sep=" ::: ",
     engine="python",
     header=None,
     names=["id", "title", "plot"]
 )
-test_solution = pd.read_csv(
-    r"C:\Users\Madhu\Downloads\CODSOFT\Task1\Genre Classification Dataset\test_data_solution.txt",
+test_solution = pd.read_csv("dataset.csv",
     sep=" ::: ",
     engine="python",
     header=None,
