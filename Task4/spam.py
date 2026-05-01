@@ -1,3 +1,7 @@
+## Dataset
+Source:https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
