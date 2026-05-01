@@ -143,6 +143,29 @@ This internship helped strengthen my understanding of Machine Learning concepts 
 
 ---
 
+## Dataset
+
+This project uses the dataset from Kaggle:
+
+Task1
+Dataset Name  Genre Classification Dataset IMDb
+Source: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
+
+Task2 
+Dataset Name: Credit Card Transactions Fraud Detection Dataset
+Source: https://www.kaggle.com/datasets/kartik2112/fraud-detection
+
+Task3 
+Dataset Name: Bank Customer Churn Prediction
+Source: https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
+
+Task4
+Dataset Name: SMS Spam Collection Dataset
+Source: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+Note: Dataset is used only for educational and learning purposes.
+Credits: Thanks to the original creator for providing the dataset.
+
 # Author
 
 Machine Learning Internship Project
