@@ -1,3 +1,7 @@
+## Dataset
+Source: https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
