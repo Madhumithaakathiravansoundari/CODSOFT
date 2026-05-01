@@ -1,9 +1,5 @@
 ## Dataset
-
-This project uses the dataset from Kaggle:
-
-Dataset Name: Movie Genre Classification Dataset  
-Source: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb.
+Source: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb-link
 
 Credits: Thanks to the original creator for providing the dataset.
 
