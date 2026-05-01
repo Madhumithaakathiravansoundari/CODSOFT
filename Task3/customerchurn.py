@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-data = pd.read_csv(r"C:\Users\Madhu\Downloads\CODSOFT\Task3\Customer Churn Dataset\Churn_Modelling.csv")
+data = pd.read_csv("dataset.csv")
 print("First 5 Rows:\n")
 print(data.head())
 data = data.drop(["RowNumber", "CustomerId", "Surname"], axis=1)
