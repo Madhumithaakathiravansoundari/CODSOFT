@@ -1,3 +1,8 @@
+## Dataset
+Source: https://www.kaggle.com/datasets/kartik2112/fraud-detection
+
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
