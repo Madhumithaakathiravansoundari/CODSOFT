@@ -5,12 +5,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
-train_df = pd.read_csv(
-    r"C:\Users\Madhu\Downloads\CODSOFT\Task2\Fraud Detection\fraudTrain.csv"
-)
-test_df = pd.read_csv(
-    r"C:\Users\Madhu\Downloads\CODSOFT\Task2\Fraud Detection\fraudTest.csv"
-)
+train_df = pd.read_csv("dataset.csv")
+test_df = pd.read_csv("dataset.csv")
 print("Train Shape:", train_df.shape)
 print("Test Shape:", test_df.shape)
 columns = [
