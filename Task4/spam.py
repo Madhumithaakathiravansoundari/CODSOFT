@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-data = pd.read_csv(r"Spam Dataset\spam.csv", encoding="latin-1")
+data = pd.read_csv("Dataset.csv", encoding="latin-1")
 data = data[["v1", "v2"]]
 data.columns = ["Label", "Message"]
 data["Label"] = data["Label"].map({"ham": 0, "spam": 1})
