@@ -1,5 +1,5 @@
 ## Dataset
-Source: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb-link
+Source: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
 
     
 import pandas as pd
