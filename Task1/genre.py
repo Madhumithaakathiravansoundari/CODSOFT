@@ -1,3 +1,13 @@
+## Dataset
+
+This project uses the dataset from Kaggle:
+
+Dataset Name: Movie Genre Classification Dataset  
+Source: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb.
+
+Credits: Thanks to the original creator for providing the dataset.
+
+    
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
